@@ -24,19 +24,19 @@ jobs:
 
       - name: Install dependencies and build Zudoku
         run: |
-          cd docs/zudoku-app
+          cd docs/zudoku
           npm install
           npm run build
 
       - name: Fix CSS paths in all HTML files
         run: |
-          find docs/zudoku-app/dist -type f -name "*.html" -exec sed -i 's|href="/assets/|href="../assets/|g' {} +
+          find docs/zudoku/dist -type f -name "*.html" -exec sed -i 's|href="/assets/|href="../assets/|g' {} +
 
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: docs/zudoku-app/dist  # Укажите путь к собранным файлам
+          path: docs/zudoku/dist  # Укажите путь к собранным файлам
           retention-days: 1  # Сохранение артефакта на 1 день (по умолчанию 90)
 
   deploy:
