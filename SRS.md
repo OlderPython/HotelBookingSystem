@@ -48,7 +48,11 @@ Key goals:
 
 ## 5. System Architecture
 
+<<<<<<< HEAD:docs/SRS.md
 ```
+=======
+``` 
+>>>>>>> 45f646d (Move docs files to root for GitHub Pages):SRS.md
 ├── app/
 │ ├── routes/ # API endpoints (hotels, rooms, booking)
 │ ├── models/ # SQLAlchemy ORM models
@@ -60,7 +64,11 @@ Key goals:
 ├── requirements.txt # Dependencies
 ├── .env # Environment variables
 └── docs/ # SRS and documentation
+<<<<<<< HEAD:docs/SRS.md
 ```
+=======
+``` 
+>>>>>>> 45f646d (Move docs files to root for GitHub Pages):SRS.md
 
 ## 6. Data Models
 
