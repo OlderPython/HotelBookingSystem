@@ -48,6 +48,7 @@ Key goals:
 
 ## 5. System Architecture
 
+```
 ├── app/
 │ ├── routes/ # API endpoints (hotels, rooms, booking)
 │ ├── models/ # SQLAlchemy ORM models
@@ -59,6 +60,7 @@ Key goals:
 ├── requirements.txt # Dependencies
 ├── .env # Environment variables
 └── docs/ # SRS and documentation
+```
 
 ## 6. Data Models
 
