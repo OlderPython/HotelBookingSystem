@@ -2,9 +2,9 @@
 
 ## 1. Introduction
 
-**Project name:** Hotel Booking System  
-**Developer:** Vlad Barshak 
-**Technology stack:** FastAPI, SQLAlchemy, Pydantic, SQLite/PostgreSQL  
+- **Project name:** Hotel Booking System  
+- **Developer:** Vlad Barshak  
+- **Technology stack:** FastAPI, SQLAlchemy, Pydantic, SQLite/PostgreSQL
 
 This document defines the software requirements for the Hotel Booking System – a backend REST API for managing hotels, rooms, and reservations. It outlines the purpose, features, architecture, and technical constraints of the system.
 
@@ -48,6 +48,7 @@ Key goals:
 
 ## 5. System Architecture
 
+``` 
 ├── app/
 │ ├── routes/ # API endpoints (hotels, rooms, booking)
 │ ├── models/ # SQLAlchemy ORM models
@@ -59,6 +60,7 @@ Key goals:
 ├── requirements.txt # Dependencies
 ├── .env # Environment variables
 └── docs/ # SRS and documentation
+``` 
 
 ## 6. Data Models
 
